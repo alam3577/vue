@@ -18,6 +18,8 @@ export default {
         return {show: true}
      }
   },
+
+
   methods:{
     consoleClickHandler(){
         this.show = !this.show
@@ -25,3 +27,5 @@ export default {
   }
 }
 </script>
+
+

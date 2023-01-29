@@ -2,19 +2,23 @@
   <img alt="Vue logo" src="./assets/logo.png">
   <!-- <Data /> -->
   <!-- <TemplateVue /> -->
-  <Styles />
+  <!-- <Styles /> -->
+  <Computed />
 </template>
 
 <script>
 // import Data from "./components/parent-to-child/Data.vue"
 // import TemplateVue from "./components/template/Template.vue";
-import Styles from "./components/class-style-binding/Styles"
+// import Styles from "./components/class-style-binding/Styles"
+import Computed from './components/computed/Computed.vue';
+
 export default {
   name: 'App',
   components: {
     // Data
     // TemplateVue
-    Styles
+    // Styles
+    Computed
   }
 }
 </script>
